@@ -45,8 +45,8 @@
 | Rank                          | 20             | int64 |
 | Peak                          | 9              | object|
 | All Time Peak                 | 6              | object|
-| Actual gross                  | 20             | object|
-| Adjusted gross (in 2022 $)   | 20             | object|
+| Actual�gross                  | 20             | object|
+| Adjusted�gross (in 2022 $)   | 20             | object|
 | Artist                        | 20             | object|
 | Tour title                    | 20             | object|
 | Year(s)                       | 20             | object|
