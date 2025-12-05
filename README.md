@@ -38,31 +38,33 @@
 - Foundational step for predictive analytics or reporting pipelines
 
 
-## Original structure
-#   Column                            Non-Null Count  Dtype 
----  ------                            --------------  ----- 
- 0   Rank                              20 non-null     int64 
- 1   Peak                              9 non-null      object
- 2   All Time Peak                     6 non-null      object
- 3   Actual�gross                      20 non-null     object
- 4   Adjusted�gross (in 2022 dollars)  20 non-null     object
- 5   Artist                            20 non-null     object
- 6   Tour title                        20 non-null     object
- 7   Year(s)                           20 non-null     object
- 8   Shows                             20 non-null     int64 
- 9   Average gross                     20 non-null     object
- 10  Ref.                              20 non-null     object
+## Original structure (selected columns)
+
+| Column                        | Non-Null Count | Dtype  |
+|-------------------------------|----------------|-------|
+| Rank                          | 20             | int64 |
+| Peak                          | 9              | object|
+| All Time Peak                 | 6              | object|
+| Actual gross                  | 20             | object|
+| Adjusted gross (in 2022 $)   | 20             | object|
+| Artist                        | 20             | object|
+| Tour title                    | 20             | object|
+| Year(s)                       | 20             | object|
+| Shows                         | 20             | int64 |
+| Average gross                 | 20             | object|
+| Ref.                          | 20             | object|
 
 ## Final structure
-(#   Column          Non-Null Count  Dtype  
----  ------          --------------  -----  
- 0   Actual gross    20 non-null     float64
- 1   Adjusted gross  20 non-null     float64
- 2   Artist          20 non-null     object 
- 3   Tour title      20 non-null     object 
- 4   Year(s)         20 non-null     object 
- 5   Shows           20 non-null     int64  
- 6   Average gross   20 non-null     float64)
+
+| Column         | Non-Null Count | Dtype   |
+|----------------|----------------|--------|
+| Actual gross   | 20             | float64|
+| Adjusted gross | 20             | float64|
+| Artist         | 20             | object |
+| Tour title     | 20             | object |
+| Year(s)        | 20             | object |
+| Shows          | 20             | int64  |
+| Average gross  | 20             | float64|
 
 ## How to Run
 1. Clone the repository:
